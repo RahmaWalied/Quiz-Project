@@ -51,7 +51,7 @@ function App() {
   const showConfetti = isFinished && percentage > 50;
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black flex items-center justify-center flex-col p-6 relative">
+    <div className="h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900 to-black flex items-center justify-center flex-col p-6 relative">
       {showConfetti && <Confetti />}
 
       {/* Title with Lottie */}
